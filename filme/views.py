@@ -9,8 +9,9 @@ from django.http import HttpResponseRedirect
 # def homepage(request):
 #    return render(request, "homepage.html")
 
-class Homepage(TemplateView):
+class Homepage(FormView):
     template_name = "homepage.html"
+    form_class = FormHomepage
     
     def get(self, request, *args, **kwargs):
         if request.user.is_authenticated: #usuario esta autenticado:
@@ -18,6 +19,14 @@ class Homepage(TemplateView):
             return redirect('filme:homefilmes')
         else:
             return super().get(request, *args, **kwargs) # redireciona para a homepage
+        
+    def get_success_url(self):
+        email = self.request.POST.get("email")
+        usuarios = Usuario.objects.filter(email=email)
+        if usuarios:
+            return reverse('filme:login')
+        else:
+            return reverse('filme:criarconta')
 
 
 # url - view - html
