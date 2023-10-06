@@ -88,8 +88,8 @@ WSGI_APPLICATION = 'geperflix.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
         'USER': 'postgres',
         'PASSWORD': '0xBv131EZ80TWn93x4nI',
         'HOST': 'containers-us-west-83.railway.app',
