@@ -27,8 +27,10 @@ Nesta funcionalidade, os usuários podem gerenciar sua conta e perfil na platafo
 
 # 📁 Acesso ao projeto
 
-**Você pode acessar os arquivos do projeto clicando <a href="https://github.com/Geper08/projetogeperflixdjango.git" target="_blank">aqui</a>.</p>
-**Você pode acessar o projeto clicando <a href="https://projetogeperflixdjango-production.up.railway.app/" target="_blank">aqui</a>.</p>
+**Você pode acessar os arquivos do projeto clicando <a href="https://github.com/Geper08/projetogeperflixdjango.git" >aqui</a>.</p>
+**Você pode acessar o projeto clicando <a href="https://projetogeperflixdjango-production.up.railway.app/" >aqui</a>.</p>
+
+(Para abrir em uma nova aba, clique com o botão direito no link e selecione "Abrir link em nova aba" no menu do navegador.)
 
 # 🛠️ Tecnologias utilizadas
 
