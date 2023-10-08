@@ -29,7 +29,7 @@ else:
      SECRET_KEY = 'django-insecure-(hmi*chx_15bp6*abb1v=hmu30t05!4s7yv5rof5a3m$aahadw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["projetogeperflixdjango-production.up.railway.app", "localhost", "127.0.0.1"] #Permite quais servidores vao rodar no site
 
@@ -85,6 +85,13 @@ WSGI_APPLICATION = 'geperflix.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
+
+#DATABASES = {
+#    'default': {
+#       'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': BASE_DIR / 'db.sqlite3',
+#    }
+#}
 
 DATABASES = {
     'default': {
