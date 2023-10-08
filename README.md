@@ -27,18 +27,26 @@ Nesta funcionalidade, os usuários podem gerenciar sua conta e perfil na platafo
 
 # 📁 Acesso ao projeto
 
-**Você pode acessar os arquivos do projeto clicando <a href="https://github.com/Geper08/projetogeperflixdjango.git" >aqui</a>.</p>
-**Você pode acessar o projeto clicando <a href="https://projetogeperflixdjango-production.up.railway.app/" >aqui</a>.</p>
+**Você pode acessar os arquivos do projeto clicando <a target="_blank" href="https://github.com/Geper08/projetogeperflixdjango.git" >aqui</a>.</p>
+**Você pode acessar o projeto clicando <a target="_blank" href="https://projetogeperflixdjango-production.up.railway.app/" >aqui</a>.</p>
 
 (Para abrir em uma nova aba, clique com o botão direito no link e selecione "Abrir link em nova aba" no menu do navegador.)
 
 # 🛠️ Tecnologias utilizadas
 
+FRONT-END:
+
 <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="javascript" width="40" height="40" data-canonical-src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" style="max-width: 100%;"></a>
-<a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/Rafael-Lee1/Icons/blob/d9d0e61c6ba26dea6abfad9be89e0268bbc78132/Django.gif"><img src="https://github.com/Rafael-Lee1/Icons/blob/d9d0e61c6ba26dea6abfad9be89e0268bbc78132/Django.gif" alt="github" width="40" height="40" data-canonical-src="https://github.com/Rafael-Lee1/Icons/blob/d9d0e61c6ba26dea6abfad9be89e0268bbc78132/Django.gif" style="max-width: 100%;"></a>
 <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/feab30539b67d1e24d74a18252817c0577bb8b5141618fe3f872f2078479707e/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f323431352f504e472f3531322f68746d6c5f6f726967696e616c5f776f72646d61726b5f6c6f676f5f69636f6e5f3134363437382e706e67"><img src="https://camo.githubusercontent.com/feab30539b67d1e24d74a18252817c0577bb8b5141618fe3f872f2078479707e/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f323431352f504e472f3531322f68746d6c5f6f726967696e616c5f776f72646d61726b5f6c6f676f5f69636f6e5f3134363437382e706e67" alt="html" width="40" height="40" data-canonical-src="https://cdn.icon-icons.com/icons2/2415/PNG/512/html_original_wordmark_logo_icon_146478.png" style="max-width: 100%;"></a>
 <a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/Rafael-Lee1/Icons/blob/f85d05ce344243c7a5f13ebe444b251000c1793a/icons8-javascript.gif"><img src="https://github.com/Rafael-Lee1/Icons/blob/f85d05ce344243c7a5f13ebe444b251000c1793a/icons8-javascript.gif" alt="css" width="40" height="40" data-canonical-src="https://github.com/Rafael-Lee1/Icons/blob/f85d05ce344243c7a5f13ebe444b251000c1793a/icons8-javascript.gif" style="max-width: 100%;"></a>
-<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f06aea2585a5ebb7c97ff88c1e3ec42fe92502fbd897abe4bf2e56eb7039e1aa/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f3131322f504e472f3531322f707974686f6e5f31383839342e706e67"><img src="https://camo.githubusercontent.com/f06aea2585a5ebb7c97ff88c1e3ec42fe92502fbd897abe4bf2e56eb7039e1aa/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f3131322f504e472f3531322f707974686f6e5f31383839342e706e67" alt="python" width="40" height="40" data-canonical-src="https://cdn.icon-icons.com/icons2/112/PNG/512/python_18894.png" style="max-width: 100%;"></a></p>
+
+BACK-END:
+
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/Rafael-Lee1/Icons/blob/d9d0e61c6ba26dea6abfad9be89e0268bbc78132/Django.gif"><img src="https://github.com/Rafael-Lee1/Icons/blob/d9d0e61c6ba26dea6abfad9be89e0268bbc78132/Django.gif" alt="github" width="40" height="40" data-canonical-src="https://github.com/Rafael-Lee1/Icons/blob/d9d0e61c6ba26dea6abfad9be89e0268bbc78132/Django.gif" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f06aea2585a5ebb7c97ff88c1e3ec42fe92502fbd897abe4bf2e56eb7039e1aa/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f3131322f504e472f3531322f707974686f6e5f31383839342e706e67"><img src="https://camo.githubusercontent.com/f06aea2585a5ebb7c97ff88c1e3ec42fe92502fbd897abe4bf2e56eb7039e1aa/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f3131322f504e472f3531322f707974686f6e5f31383839342e706e67" alt="python" width="40" height="40" data-canonical-src="https://cdn.icon-icons.com/icons2/112/PNG/512/python_18894.png" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow"
+href="https://w7.pngwing.com/pngs/441/460/png-transparent-postgresql-plain-wordmark-logo-icon-thumbnail.png"><img
+src="https://w7.pngwing.com/pngs/441/460/png-transparent-postgresql-plain-wordmark-logo-icon-thumbnail.png" alt="postgresql" width="40" height="40" data-canonical-src="https://w7.pngwing.com/pngs/441/460/png-transparent-postgresql-plain-wordmark-logo-icon-thumbnail.png" style="max-width: 100%;"></a>
 
 <b>Requirements:</b>
 
