@@ -95,12 +95,8 @@ WSGI_APPLICATION = 'geperflix.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'pFtFJyin4ToweAmE5DB6',
-        'HOST': 'containers-us-west-190.railway.app',
-        'PORT': '6150'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
@@ -108,7 +104,6 @@ import dj_database_url
 
 
 DATABASE_URL = os.getenv("DATABASE_URL")
-
 if DATABASE_URL: 
     DATABASES = {
         'default': dj_database_url.config(default=DATABASE_URL, conn_max_age=1800)
