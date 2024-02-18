@@ -110,10 +110,10 @@ WSGI_APPLICATION = 'geperflix.wsgi.application'
 import dj_database_url
 
 
-DATABASE_URL = {
+DATABASES = {
      'default': dj_database_url.config(
           default='postgresql://postgres:B32111d-*C24ECF226-G3F--db6B-GF1@monorail.proxy.rlwy.net:42124/railway',
-          conn_max_age=1800,
+          conn_max_age=600,
           ssl_require=not DEBUG
      )
 
