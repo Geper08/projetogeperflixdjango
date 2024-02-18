@@ -95,17 +95,17 @@ WSGI_APPLICATION = 'geperflix.wsgi.application'
 #    }
 #}
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'railway',
-#         'USER': 'postgres',
-#         'PASSWORD': 'B32111d-*C24ECF226-G3F--db6B-GF1',
-#         'HOST': 'monorail.proxy.rlwy.net',
-#         'PORT': '42124'
-        
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'B32111d-*C24ECF226-G3F--db6B-GF1',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '42124'
+    
+    }
+}
 
 import dj_database_url
 
