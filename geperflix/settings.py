@@ -31,7 +31,8 @@ else:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["projetogeperflixdjango-production.up.railway.app", "localhost", "127.0.0.1"] #Permite quais servidores vao rodar no site
+# ALLOWED_HOSTS = ["projetogeperflixdjango-production.up.railway.app", "localhost", "127.0.0.1"] #Permite quais servidores vao rodar no site
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -94,26 +95,29 @@ WSGI_APPLICATION = 'geperflix.wsgi.application'
 #    }
 #}
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'B32111d-*C24ECF226-G3F--db6B-GF1',
-        'HOST': 'monorail.proxy.rlwy.net',
-        'PORT': '42124'
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         'PASSWORD': 'B32111d-*C24ECF226-G3F--db6B-GF1',
+#         'HOST': 'monorail.proxy.rlwy.net',
+#         'PORT': '42124'
         
-    }
-}
+#     }
+# }
 
 import dj_database_url
 
 
-DATABASE_URL = os.getenv("DATABASE_URL")
-if DATABASE_URL: 
-    DATABASES = {
-        'default': dj_database_url.config(default=DATABASE_URL, conn_max_age=1800)
-    }
+DATABASE_URL = {
+     'default': dj_database_url.config(
+          default='postgresql://postgres:B32111d-*C24ECF226-G3F--db6B-GF1@monorail.proxy.rlwy.net:42124/railway',
+          conn_max_age=1800,
+          ssl_require=not DEBUG
+     )
+
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
