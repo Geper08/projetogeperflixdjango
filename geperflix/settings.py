@@ -29,7 +29,7 @@ else:
      SECRET_KEY = 'django-insecure-(hmi*chx_15bp6*abb1v=hmu30t05!4s7yv5rof5a3m$aahadw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["projetogeperflixdjango-production.up.railway.app", "localhost", "127.0.0.1"] #Permite quais servidores vao rodar no site
 
